@@ -1,0 +1,121 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: bottom;
+}
+/* 全ページ共通 */
+header{
+    padding: 30px ;
+}
+h1{
+    text-align: center;
+}
+.g-nav{
+    width: 100%;
+    height: 50px;
+    background-color: #00AA90;
+    margin-bottom: 80px;
+}
+.g-nav>ul{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.g-nav li{
+    width: 20%;
+    height: 50px;
+    
+}
+.g-nav a{
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-right: 1px solid #fff;
+    display: block;
+}
+.g-nav li:first-of-type>a{
+    border-left: 1px solid #fff;
+}
+.g-nav a:hover{
+    background-color: #bdbd49;
+}
+main{
+    width: 960px;
+    margin: 0 auto 80px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #00AA90;
+}
+footer>p{
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+
+}
+/* トップページ部分 */
+.main-visual{
+    margin-bottom: 80px;
+}
+.main-copy>h2{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.main-copy>p{
+    width: 600px;
+    margin: 0 auto;
+    line-height: 2.4;
+}
+/* 季節ページ */
+.wrapper{
+    display: flex;
+
+}
+.photo{
+    margin-right:40px ;
+}
+.season-txt>h2{
+    margin-bottom: 30px;
+}
+.season-txt>p{
+    line-height: 2;
+}
+/* 個別ページ */
+
+.spring>.g-nav{
+    background-color: #E16B8C;
+}
+.spring>footer{
+    background-color: #E16B8C;
+}
+.summer>.g-nav{
+    background-color: #00896C;
+}
+.summer>footer{
+    background-color: #00896C;
+}
+.fall>.g-nav{
+    background-color: #BA9132;
+}
+.fall>footer{
+    background-color: #BA9132;
+}
+.winter>.g-nav{
+    background-color: #535953;
+}
+.winter>footer{
+    background-color: #535953;
+}
